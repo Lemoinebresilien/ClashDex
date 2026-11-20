@@ -15,11 +15,35 @@ body {
     background: #1b1b2f;
     color: white;
     margin: 0;
+    padding: 0;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 15px 20px;
+    background: #1b1b2f;
+}
+main {
     padding: 20px;
+}
+#user {
+    justify-self: end;
+}
+
+#user img {
+    width: 60px;
+    filter: invert(100%);
 }
 
 h1 {
+    color: #ffffff;
+    margin: 0;
     text-align: center;
+    font-size: 48px;
 }
 
 /* La grille : autant de colonnes de 120px minimum que la largeur le permet */
@@ -66,10 +90,6 @@ h1 {
     border-color: #a823e0;
 }
 
-.legendary {
-    border-color: #31f5ff;
-}
-
 .champion {
     border-color: #f2d14b;
 }
@@ -82,12 +102,7 @@ h1 {
     padding: 0;
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 aside {
     display: flex;
@@ -95,15 +110,7 @@ aside {
     margin-left: 2%;
 }
 
-aside2 {
-    display: flex;
-    flex-direction: column;
-    margin-right: 2%;
-}
-aside2 img{
-    width:80px;
-    filter: invert(100%);
-}
+
 /* Icon 1 */
 
 #nav-icon1,
@@ -123,6 +130,15 @@ aside2 img{
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
+
+}
+
+#nav-icon1 {
+
+    position: relative;
+    margin: 0;
+    z-index: 2;
+
 }
 
 #nav-icon1 span,
@@ -177,4 +193,70 @@ aside2 img{
     -moz-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    padding: 100px 20px 20px;
+    box-sizing: border-box;
+    background: #2a2a45;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+#menu.open #sidebar {
+    transform: translateX(0);
+}
+
+#sidebar ul {
+    list-style: none;
+}
+
+#sidebar button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#sidebar button img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+#menu {
+    justify-self: start;
+}
+.carte.legendaire {
+  border: 3px solid transparent;
+  background:
+    linear-gradient(#2a2440, #2a2440) padding-box,
+    conic-gradient(from var(--angle), red, orange, yellow, lime, cyan, blue, magenta, red) border-box;
+  animation: tourner 3s linear infinite;
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes tourner {
+  to { --angle: 360deg; }
+}
+
+/* pour les gens que les animations gênent */
+@media (prefers-reduced-motion: reduce) {
+  .carte.legendaire { animation: none; }
 }

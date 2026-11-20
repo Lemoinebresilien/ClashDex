@@ -17,11 +17,16 @@ fetch("api.php")
         });
     });
 
+const menu = document.getElementById("menu");
 const burger = document.getElementById("nav-icon1");
-burger.addEventListener("mouseenter", () => {
-    burger.classList.toggle("open");
+
+menu.addEventListener("mouseenter", () => {
+    menu.classList.add("open");  
+    burger.classList.add("open"); 
 });
-burger.addEventListener("mouseleave", () => {
-    burger.classList.toggle("open");
+
+menu.addEventListener("mouseleave", () => {
+    menu.classList.remove("open");
+    burger.classList.remove("open");
 });
 
