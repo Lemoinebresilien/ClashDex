@@ -1,0 +1,1269 @@
+{
+    "Archer Queen": {
+        "nom": "Archer Queen",
+        "type": "troop",
+        "pv": 1000,
+        "degats": 232,
+        "vitesseAttaque": 1.2,
+        "vitesse": "Medium",
+        "portee": 5.0,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Archers": {
+        "nom": "Archers",
+        "type": "troop",
+        "pv": 304,
+        "degats": 112,
+        "vitesseAttaque": 0.9,
+        "vitesse": "Medium",
+        "portee": 5.0,
+        "cible": "Air & Ground",
+        "nombre": 2
+    },
+    "Arrows": {
+        "nom": "Arrows",
+        "type": "spell",
+        "degats": 366,
+        "degatsTour": 75,
+        "rayon": 3.5
+    },
+    "Baby Dragon": {
+        "nom": "Baby Dragon",
+        "type": "troop",
+        "pv": 1152,
+        "degats": 168,
+        "vitesseAttaque": 1.5,
+        "vitesse": "Fast",
+        "portee": 3.5,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Balloon": {
+        "nom": "Balloon",
+        "type": "troop",
+        "pv": 1676,
+        "degats": 640,
+        "vitesseAttaque": 2.0,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Buildings",
+        "nombre": 1
+    },
+    "Bandit": {
+        "nom": "Bandit",
+        "type": "troop",
+        "pv": 906,
+        "degats": 194,
+        "vitesseAttaque": 1.0,
+        "vitesse": "Fast",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Barbarian Barrel": {
+        "nom": "Barbarian Barrel",
+        "type": "spell",
+        "degats": 215,
+        "rayon": 2.6,
+        "note": "Rayon = largeur du tonneau ; libère un Barbarian."
+    },
+    "Barbarian Hut": {
+        "nom": "Barbarian Hut",
+        "type": "building",
+        "pv": 1164,
+        "duree": 30
+    },
+    "Barbarians": {
+        "nom": "Barbarians",
+        "type": "troop",
+        "pv": 716,
+        "degats": 192,
+        "vitesseAttaque": 1.4,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 5
+    },
+    "Bats": {
+        "nom": "Bats",
+        "type": "troop",
+        "pv": 81,
+        "degats": 81,
+        "vitesseAttaque": 1.2,
+        "vitesse": "Very Fast",
+        "portee": "Melee",
+        "cible": "Air & Ground",
+        "nombre": 5
+    },
+    "Battle Healer": {
+        "nom": "Battle Healer",
+        "type": "troop",
+        "pv": 1920,
+        "degats": 268,
+        "vitesseAttaque": 2.0,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Battle Ram": {
+        "nom": "Battle Ram",
+        "type": "troop",
+        "pv": 967,
+        "degats": 286,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Buildings",
+        "nombre": 1
+    },
+    "Berserker": {
+        "nom": "Berserker",
+        "type": "troop",
+        "pv": 896,
+        "degats": 102,
+        "vitesseAttaque": 0.6,
+        "vitesse": "Fast",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Bomb Tower": {
+        "nom": "Bomb Tower",
+        "type": "building",
+        "pv": 1356,
+        "degats": 222,
+        "vitesseAttaque": 1.8,
+        "portee": 6.0,
+        "duree": 30
+    },
+    "Bomber": {
+        "nom": "Bomber",
+        "type": "troop",
+        "pv": 304,
+        "degats": 212,
+        "vitesseAttaque": 1.8,
+        "vitesse": "Medium",
+        "portee": 4.5,
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Boss Bandit": {
+        "nom": "Boss Bandit",
+        "type": "troop",
+        "pv": 2624,
+        "degats": 245,
+        "vitesseAttaque": 1.1,
+        "vitesse": "Fast",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Bowler": {
+        "nom": "Bowler",
+        "type": "troop",
+        "pv": 2081,
+        "degats": 289,
+        "vitesseAttaque": 2.5,
+        "vitesse": "Slow",
+        "portee": 4.0,
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Cannon": {
+        "nom": "Cannon",
+        "type": "building",
+        "pv": 824,
+        "degats": 202,
+        "vitesseAttaque": 1.0,
+        "portee": 5.5,
+        "duree": 30
+    },
+    "Cannon Cart": {
+        "nom": "Cannon Cart",
+        "type": "troop",
+        "pv": 1809,
+        "degats": 202,
+        "vitesseAttaque": 0.9,
+        "vitesse": "Medium",
+        "portee": 5.5,
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Cannoneer": {
+        "nom": "Cannoneer",
+        "type": "tower",
+        "pv": 2616,
+        "degats": 320,
+        "vitesseAttaque": 2.2,
+        "portee": 7.5
+    },
+    "Clone": {
+        "nom": "Clone",
+        "type": "spell",
+        "rayon": 3.0,
+        "note": "Duplique les troupes alliées (les clones ont 1 PV)."
+    },
+    "Dagger Duchess": {
+        "nom": "Dagger Duchess",
+        "type": "tower",
+        "pv": 2768,
+        "degats": 107,
+        "vitesseAttaque": 0.5,
+        "portee": 7.5
+    },
+    "Dark Prince": {
+        "nom": "Dark Prince",
+        "type": "troop",
+        "pv": 1440,
+        "degats": 266,
+        "vitesseAttaque": 1.4,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1,
+        "note": "PV = 1200 + bouclier de 240."
+    },
+    "Dart Goblin": {
+        "nom": "Dart Goblin",
+        "type": "troop",
+        "pv": 261,
+        "degats": 143,
+        "vitesseAttaque": 0.8,
+        "vitesse": "Very Fast",
+        "portee": 6.5,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Earthquake": {
+        "nom": "Earthquake",
+        "type": "spell",
+        "degats": 243,
+        "degatsTour": 147,
+        "rayon": 3.5,
+        "note": "858 dégâts aux bâtiments."
+    },
+    "Electro Dragon": {
+        "nom": "Electro Dragon",
+        "type": "troop",
+        "pv": 1049,
+        "degats": 192,
+        "vitesseAttaque": 2.1,
+        "vitesse": "Medium",
+        "portee": 3.5,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Electro Giant": {
+        "nom": "Electro Giant",
+        "type": "troop",
+        "pv": 3952,
+        "degats": 184,
+        "vitesseAttaque": 1.8,
+        "vitesse": "Slow",
+        "portee": "Melee",
+        "cible": "Buildings",
+        "nombre": 1
+    },
+    "Electro Spirit": {
+        "nom": "Electro Spirit",
+        "type": "troop",
+        "pv": 215,
+        "degats": 99,
+        "vitesse": "Very Fast",
+        "portee": 2.5,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Electro Wizard": {
+        "nom": "Electro Wizard",
+        "type": "troop",
+        "pv": 714,
+        "degats": 117,
+        "vitesseAttaque": 1.8,
+        "vitesse": "Fast",
+        "portee": 5.0,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Elite Barbarians": {
+        "nom": "Elite Barbarians",
+        "type": "troop",
+        "pv": 1341,
+        "degats": 384,
+        "vitesseAttaque": 1.4,
+        "vitesse": "Fast",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 2
+    },
+    "Elixir Collector": {
+        "nom": "Elixir Collector",
+        "type": "building",
+        "pv": 1070,
+        "duree": 110
+    },
+    "Elixir Golem": {
+        "nom": "Elixir Golem",
+        "type": "troop",
+        "pv": 1569,
+        "degats": 253,
+        "vitesseAttaque": 1.1,
+        "vitesse": "Slow",
+        "portee": "Melee",
+        "cible": "Buildings",
+        "nombre": 1
+    },
+    "Executioner": {
+        "nom": "Executioner",
+        "type": "troop",
+        "pv": 1280,
+        "degats": 186,
+        "vitesseAttaque": 2.4,
+        "vitesse": "Medium",
+        "portee": 4.5,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Fire Spirit": {
+        "nom": "Fire Spirit",
+        "type": "troop",
+        "pv": 215,
+        "degats": 215,
+        "vitesse": "Very Fast",
+        "portee": 2.5,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Fireball": {
+        "nom": "Fireball",
+        "type": "spell",
+        "degats": 688,
+        "degatsTour": 159,
+        "rayon": 2.5
+    },
+    "Firecracker": {
+        "nom": "Firecracker",
+        "type": "troop",
+        "pv": 304,
+        "degats": 64,
+        "vitesseAttaque": 3.0,
+        "vitesse": "Fast",
+        "portee": 6.0,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Fisherman": {
+        "nom": "Fisherman",
+        "type": "troop",
+        "pv": 870,
+        "degats": 194,
+        "vitesseAttaque": 1.3,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Flying Machine": {
+        "nom": "Flying Machine",
+        "type": "troop",
+        "pv": 614,
+        "degats": 179,
+        "vitesseAttaque": 1.1,
+        "vitesse": "Fast",
+        "portee": 6.0,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Freeze": {
+        "nom": "Freeze",
+        "type": "spell",
+        "degats": 148,
+        "degatsTour": 38,
+        "rayon": 3.0,
+        "note": "Gèle les ennemis pendant 3,5 secondes."
+    },
+    "Furnace": {
+        "nom": "Furnace",
+        "type": "troop",
+        "pv": 727,
+        "degats": 179,
+        "vitesseAttaque": 1.7,
+        "vitesse": "Medium",
+        "portee": 5.5,
+        "cible": "Air & Ground",
+        "nombre": 1,
+        "note": "Lance des Fire Spirits."
+    },
+    "Giant": {
+        "nom": "Giant",
+        "type": "troop",
+        "pv": 3968,
+        "degats": 253,
+        "vitesseAttaque": 1.5,
+        "vitesse": "Slow",
+        "portee": "Melee",
+        "cible": "Buildings",
+        "nombre": 1
+    },
+    "Giant Skeleton": {
+        "nom": "Giant Skeleton",
+        "type": "troop",
+        "pv": 3361,
+        "degats": 276,
+        "vitesseAttaque": 1.3,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Giant Snowball": {
+        "nom": "Giant Snowball",
+        "type": "spell",
+        "degats": 179,
+        "degatsTour": 45,
+        "rayon": 2.5
+    },
+    "Goblin Barrel": {
+        "nom": "Goblin Barrel",
+        "type": "spell",
+        "note": "Envoie 3 Goblins n'importe où sur le terrain."
+    },
+    "Goblin Cage": {
+        "nom": "Goblin Cage",
+        "type": "building",
+        "pv": 780,
+        "duree": 20
+    },
+    "Goblin Curse": {
+        "nom": "Goblin Curse",
+        "type": "spell",
+        "degats": 210,
+        "degatsTour": 60,
+        "rayon": 3.0,
+        "note": "Les ennemis maudits qui meurent deviennent des Goblins."
+    },
+    "Goblin Demolisher": {
+        "nom": "Goblin Demolisher",
+        "type": "troop",
+        "pv": 1300,
+        "degats": 186,
+        "vitesseAttaque": 1.1,
+        "vitesse": "Medium",
+        "portee": 5.0,
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Goblin Drill": {
+        "nom": "Goblin Drill",
+        "type": "building",
+        "pv": 1313,
+        "duree": 10
+    },
+    "Goblin Gang": {
+        "nom": "Goblin Gang",
+        "type": "troop",
+        "pv": 202,
+        "degats": 125,
+        "vitesseAttaque": 1.1,
+        "vitesse": "Very Fast",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 6,
+        "note": "Valeurs des 3 Goblins ; les 3 Spear Goblins ont 133 PV et 81 dégâts."
+    },
+    "Goblin Giant": {
+        "nom": "Goblin Giant",
+        "type": "troop",
+        "pv": 3110,
+        "degats": 176,
+        "vitesseAttaque": 1.5,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Buildings",
+        "nombre": 1
+    },
+    "Goblin Hut": {
+        "nom": "Goblin Hut",
+        "type": "building",
+        "pv": 1180,
+        "duree": 30
+    },
+    "Goblin Machine": {
+        "nom": "Goblin Machine",
+        "type": "troop",
+        "pv": 2265,
+        "degats": 232,
+        "vitesseAttaque": 1.2,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1,
+        "note": "Valeurs des bras ; tire aussi une roquette à distance."
+    },
+    "Goblins": {
+        "nom": "Goblins",
+        "type": "troop",
+        "pv": 202,
+        "degats": 125,
+        "vitesseAttaque": 1.1,
+        "vitesse": "Very Fast",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 4
+    },
+    "Goblinstein": {
+        "nom": "Goblinstein",
+        "type": "troop",
+        "pv": 721,
+        "degats": 135,
+        "vitesseAttaque": 1.8,
+        "vitesse": "Medium",
+        "portee": 5.5,
+        "nombre": 1,
+        "note": "Valeurs du Doctor (tir à distance). Le Monster a 2240 PV, 128 dégâts et vise les bâtiments."
+    },
+    "Golden Knight": {
+        "nom": "Golden Knight",
+        "type": "troop",
+        "pv": 1799,
+        "degats": 168,
+        "vitesseAttaque": 0.9,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Golem": {
+        "nom": "Golem",
+        "type": "troop",
+        "pv": 5120,
+        "degats": 312,
+        "vitesseAttaque": 2.5,
+        "vitesse": "Slow",
+        "portee": "Melee",
+        "cible": "Buildings",
+        "nombre": 1
+    },
+    "Graveyard": {
+        "nom": "Graveyard",
+        "type": "spell",
+        "rayon": 4.0,
+        "note": "Fait apparaître 12 Skeletons pendant quelques secondes."
+    },
+    "Guards": {
+        "nom": "Guards",
+        "type": "troop",
+        "pv": 337,
+        "degats": 117,
+        "vitesseAttaque": 1.0,
+        "vitesse": "Fast",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 3,
+        "note": "PV = 81 + bouclier de 256."
+    },
+    "Heal Spirit": {
+        "nom": "Heal Spirit",
+        "type": "troop",
+        "pv": 215,
+        "degats": 110,
+        "vitesse": "Very Fast",
+        "portee": 2.5,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Hog Rider": {
+        "nom": "Hog Rider",
+        "type": "troop",
+        "pv": 1697,
+        "degats": 317,
+        "vitesseAttaque": 1.6,
+        "vitesse": "Very Fast",
+        "portee": "Melee",
+        "cible": "Buildings",
+        "nombre": 1
+    },
+    "Hunter": {
+        "nom": "Hunter",
+        "type": "troop",
+        "pv": 885,
+        "degats": 84,
+        "vitesseAttaque": 2.2,
+        "vitesse": "Medium",
+        "portee": 4.0,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Ice Golem": {
+        "nom": "Ice Golem",
+        "type": "troop",
+        "pv": 1228,
+        "degats": 84,
+        "vitesseAttaque": 2.5,
+        "vitesse": "Slow",
+        "portee": "Melee",
+        "cible": "Buildings",
+        "nombre": 1
+    },
+    "Ice Spirit": {
+        "nom": "Ice Spirit",
+        "type": "troop",
+        "pv": 215,
+        "degats": 110,
+        "vitesse": "Very Fast",
+        "portee": 2.5,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Ice Wizard": {
+        "nom": "Ice Wizard",
+        "type": "troop",
+        "pv": 688,
+        "degats": 89,
+        "vitesseAttaque": 1.7,
+        "vitesse": "Medium",
+        "portee": 5.5,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Inferno Dragon": {
+        "nom": "Inferno Dragon",
+        "type": "troop",
+        "pv": 1295,
+        "degats": "35-422",
+        "vitesseAttaque": 0.4,
+        "vitesse": "Medium",
+        "portee": 3.5,
+        "cible": "Air & Ground",
+        "nombre": 1,
+        "note": "Les dégâts montent tant qu'il reste sur la même cible."
+    },
+    "Inferno Tower": {
+        "nom": "Inferno Tower",
+        "type": "building",
+        "pv": 1748,
+        "degats": "43-847",
+        "vitesseAttaque": 0.4,
+        "portee": 6.0,
+        "duree": 30
+    },
+    "Knight": {
+        "nom": "Knight",
+        "type": "troop",
+        "pv": 1766,
+        "degats": 202,
+        "vitesseAttaque": 1.2,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Lava Hound": {
+        "nom": "Lava Hound",
+        "type": "troop",
+        "pv": 3581,
+        "degats": 71,
+        "vitesseAttaque": 1.5,
+        "vitesse": "Slow",
+        "portee": 3.5,
+        "cible": "Buildings",
+        "nombre": 1
+    },
+    "Lightning": {
+        "nom": "Lightning",
+        "type": "spell",
+        "degats": 1057,
+        "degatsTour": 265,
+        "rayon": 3.5
+    },
+    "Little Prince": {
+        "nom": "Little Prince",
+        "type": "troop",
+        "pv": 698,
+        "degats": 104,
+        "vitesseAttaque": 1.2,
+        "vitesse": "Medium",
+        "portee": 5.5,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Lumberjack": {
+        "nom": "Lumberjack",
+        "type": "troop",
+        "pv": 1282,
+        "degats": 256,
+        "vitesseAttaque": 0.8,
+        "vitesse": "Very Fast",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Magic Archer": {
+        "nom": "Magic Archer",
+        "type": "troop",
+        "pv": 529,
+        "degats": 135,
+        "vitesseAttaque": 1.1,
+        "vitesse": "Medium",
+        "portee": 7.0,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Mega Knight": {
+        "nom": "Mega Knight",
+        "type": "troop",
+        "pv": 3993,
+        "degats": 268,
+        "vitesseAttaque": 1.7,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Mega Minion": {
+        "nom": "Mega Minion",
+        "type": "troop",
+        "pv": 837,
+        "degats": 312,
+        "vitesseAttaque": 1.5,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Mighty Miner": {
+        "nom": "Mighty Miner",
+        "type": "troop",
+        "pv": 2250,
+        "degats": "43-409",
+        "vitesseAttaque": 0.4,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1,
+        "note": "Les dégâts montent tant qu'il reste sur la même cible."
+    },
+    "Miner": {
+        "nom": "Miner",
+        "type": "troop",
+        "pv": 1210,
+        "degats": 194,
+        "vitesseAttaque": 1.3,
+        "vitesse": "Fast",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1,
+        "degatsTour": 39
+    },
+    "Mini P.E.K.K.A": {
+        "nom": "Mini P.E.K.K.A",
+        "type": "troop",
+        "pv": 1390,
+        "degats": 755,
+        "vitesseAttaque": 1.6,
+        "vitesse": "Fast",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Minion Giant": {
+        "nom": "Minion Giant",
+        "type": "troop",
+        "pv": 1817,
+        "degats": 153,
+        "vitesseAttaque": 1.7,
+        "vitesse": "Medium",
+        "portee": 4.0,
+        "cible": "Buildings",
+        "nombre": 1
+    },
+    "Minion Horde": {
+        "nom": "Minion Horde",
+        "type": "troop",
+        "pv": 230,
+        "degats": 107,
+        "vitesseAttaque": 1.2,
+        "vitesse": "Fast",
+        "portee": 2.5,
+        "cible": "Air & Ground",
+        "nombre": 6
+    },
+    "Minions": {
+        "nom": "Minions",
+        "type": "troop",
+        "pv": 230,
+        "degats": 107,
+        "vitesseAttaque": 1.2,
+        "vitesse": "Fast",
+        "portee": 2.5,
+        "cible": "Air & Ground",
+        "nombre": 3
+    },
+    "Mirror": {
+        "nom": "Mirror",
+        "type": "spell",
+        "note": "Rejoue la dernière carte jouée, un niveau au-dessus."
+    },
+    "Monk": {
+        "nom": "Monk",
+        "type": "troop",
+        "pv": 2214,
+        "degats": 140,
+        "vitesseAttaque": 0.8,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Mortar": {
+        "nom": "Mortar",
+        "type": "building",
+        "pv": 1369,
+        "degats": 266,
+        "vitesseAttaque": 4.7,
+        "portee": "3.5-11.5",
+        "duree": 30
+    },
+    "Mother Witch": {
+        "nom": "Mother Witch",
+        "type": "troop",
+        "pv": 529,
+        "degats": 133,
+        "vitesseAttaque": 1.0,
+        "vitesse": "Medium",
+        "portee": 5.5,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Musketeer": {
+        "nom": "Musketeer",
+        "type": "troop",
+        "pv": 721,
+        "degats": 217,
+        "vitesseAttaque": 1.0,
+        "vitesse": "Medium",
+        "portee": 6.0,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Night Witch": {
+        "nom": "Night Witch",
+        "type": "troop",
+        "pv": 906,
+        "degats": 314,
+        "vitesseAttaque": 1.3,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "P.E.K.K.A": {
+        "nom": "P.E.K.K.A",
+        "type": "troop",
+        "pv": 3891,
+        "degats": 867,
+        "vitesseAttaque": 1.8,
+        "vitesse": "Slow",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Phoenix": {
+        "nom": "Phoenix",
+        "type": "troop",
+        "pv": 1052,
+        "degats": 217,
+        "vitesseAttaque": 1.0,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Poison": {
+        "nom": "Poison",
+        "type": "spell",
+        "degats": 736,
+        "degatsTour": 168,
+        "rayon": 3.5,
+        "note": "Dégâts totaux sur 8 secondes."
+    },
+    "Prince": {
+        "nom": "Prince",
+        "type": "troop",
+        "pv": 1920,
+        "degats": 391,
+        "vitesseAttaque": 1.4,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Princess": {
+        "nom": "Princess",
+        "type": "troop",
+        "pv": 261,
+        "degats": 168,
+        "vitesseAttaque": 3.0,
+        "vitesse": "Medium",
+        "portee": 9.0,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Rage": {
+        "nom": "Rage",
+        "type": "spell",
+        "degats": 179,
+        "degatsTour": 46,
+        "rayon": 3.0,
+        "note": "Accélère les troupes alliées."
+    },
+    "Ram Rider": {
+        "nom": "Ram Rider",
+        "type": "troop",
+        "pv": 1861,
+        "degats": 271,
+        "vitesseAttaque": 1.7,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Buildings",
+        "nombre": 1,
+        "note": "Valeurs du bélier ; la cavalière tire aussi des bolas."
+    },
+    "Rascals": {
+        "nom": "Rascals",
+        "type": "troop",
+        "pv": 1832,
+        "degats": 217,
+        "vitesseAttaque": 1.5,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 3,
+        "note": "Valeurs du Rascal Boy ; les 2 Rascal Girls ont 261 PV, 125 dégâts, portée 5."
+    },
+    "Rocket": {
+        "nom": "Rocket",
+        "type": "spell",
+        "degats": 1484,
+        "degatsTour": 342,
+        "rayon": 2.0
+    },
+    "Ronin": {
+        "nom": "Ronin",
+        "type": "troop",
+        "pv": 1779,
+        "degats": 371,
+        "vitesseAttaque": 1.3,
+        "vitesse": "Fast",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Royal Chef": {
+        "nom": "Royal Chef",
+        "type": "tower",
+        "pv": 2703,
+        "degats": 109,
+        "vitesseAttaque": 1.0,
+        "portee": 7.5
+    },
+    "Royal Delivery": {
+        "nom": "Royal Delivery",
+        "type": "spell",
+        "degats": 384,
+        "rayon": 3.0
+    },
+    "Royal Ghost": {
+        "nom": "Royal Ghost",
+        "type": "troop",
+        "pv": 1152,
+        "degats": 263,
+        "vitesseAttaque": 1.8,
+        "vitesse": "Fast",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Royal Giant": {
+        "nom": "Royal Giant",
+        "type": "troop",
+        "pv": 3289,
+        "degats": 307,
+        "vitesseAttaque": 1.8,
+        "vitesse": "Slow",
+        "portee": 5.0,
+        "cible": "Buildings",
+        "nombre": 1
+    },
+    "Royal Hogs": {
+        "nom": "Royal Hogs",
+        "type": "troop",
+        "pv": 837,
+        "degats": 74,
+        "vitesseAttaque": 1.2,
+        "vitesse": "Very Fast",
+        "portee": "Melee",
+        "cible": "Buildings",
+        "nombre": 4
+    },
+    "Royal Recruits": {
+        "nom": "Royal Recruits",
+        "type": "troop",
+        "pv": 787,
+        "degats": 133,
+        "vitesseAttaque": 1.3,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 6,
+        "note": "PV = 547 + bouclier de 240."
+    },
+    "Rune Giant": {
+        "nom": "Rune Giant",
+        "type": "troop",
+        "pv": 2816,
+        "degats": 153,
+        "vitesseAttaque": 1.5,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Buildings",
+        "nombre": 1
+    },
+    "Skeleton Army": {
+        "nom": "Skeleton Army",
+        "type": "troop",
+        "pv": 81,
+        "degats": 81,
+        "vitesseAttaque": 1.1,
+        "vitesse": "Fast",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 15
+    },
+    "Skeleton Barrel": {
+        "nom": "Skeleton Barrel",
+        "type": "troop",
+        "pv": 532,
+        "degats": 163,
+        "vitesse": "Fast",
+        "portee": "Melee",
+        "cible": "Buildings",
+        "nombre": 1,
+        "note": "Dégâts de l'explosion du tonneau, puis libère des Skeletons."
+    },
+    "Skeleton Dragons": {
+        "nom": "Skeleton Dragons",
+        "type": "troop",
+        "pv": 560,
+        "degats": 151,
+        "vitesseAttaque": 2.0,
+        "vitesse": "Fast",
+        "portee": 3.5,
+        "cible": "Air & Ground",
+        "nombre": 2
+    },
+    "Skeleton King": {
+        "nom": "Skeleton King",
+        "type": "troop",
+        "pv": 2298,
+        "degats": 204,
+        "vitesseAttaque": 1.6,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Skeletons": {
+        "nom": "Skeletons",
+        "type": "troop",
+        "pv": 81,
+        "degats": 81,
+        "vitesseAttaque": 1.1,
+        "vitesse": "Fast",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 3
+    },
+    "Sparky": {
+        "nom": "Sparky",
+        "type": "troop",
+        "pv": 1451,
+        "degats": 1331,
+        "vitesseAttaque": 4.0,
+        "vitesse": "Slow",
+        "portee": 5.0,
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Spear Goblins": {
+        "nom": "Spear Goblins",
+        "type": "troop",
+        "pv": 133,
+        "degats": 81,
+        "vitesseAttaque": 1.6,
+        "vitesse": "Very Fast",
+        "portee": 5.0,
+        "cible": "Air & Ground",
+        "nombre": 3
+    },
+    "Spirit Empress": {
+        "nom": "Spirit Empress",
+        "type": "troop",
+        "pv": 1121,
+        "degats": 320,
+        "vitesseAttaque": 1.2,
+        "vitesse": "Fast",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1,
+        "note": "Forme au sol (3 élixir). Forme volante (6 élixir) : 1121 PV, portée 5."
+    },
+    "Suspicious Bush": {
+        "nom": "Suspicious Bush",
+        "type": "troop",
+        "pv": 81,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Buildings",
+        "nombre": 1,
+        "note": "Libère 2 Bush Goblins à sa destruction."
+    },
+    "Tesla": {
+        "nom": "Tesla",
+        "type": "building",
+        "pv": 1182,
+        "degats": 220,
+        "vitesseAttaque": 1.1,
+        "portee": 5.5,
+        "duree": 25
+    },
+    "The Log": {
+        "nom": "The Log",
+        "type": "spell",
+        "degats": 268,
+        "degatsTour": 35,
+        "rayon": 3.9,
+        "note": "Rayon = largeur du rondin ; il roule sur 10,1 cases."
+    },
+    "Three Musketeers": {
+        "nom": "Three Musketeers",
+        "type": "troop",
+        "pv": 906,
+        "degats": 204,
+        "vitesseAttaque": 1.3,
+        "vitesse": "Medium",
+        "portee": 6.0,
+        "cible": "Air & Ground",
+        "nombre": 3,
+        "note": "Valeurs pour une Musketeer."
+    },
+    "Tombstone": {
+        "nom": "Tombstone",
+        "type": "building",
+        "pv": 529,
+        "duree": 30
+    },
+    "Tornado": {
+        "nom": "Tornado",
+        "type": "spell",
+        "degats": 84,
+        "degatsTour": 26,
+        "rayon": 5.5,
+        "note": "Attire les troupes vers le centre."
+    },
+    "Tower Princess": {
+        "nom": "Tower Princess",
+        "type": "tower",
+        "pv": 3052,
+        "degats": 109,
+        "vitesseAttaque": 0.8,
+        "portee": 7.5
+    },
+    "Valkyrie": {
+        "nom": "Valkyrie",
+        "type": "troop",
+        "pv": 1907,
+        "degats": 266,
+        "vitesseAttaque": 1.5,
+        "vitesse": "Medium",
+        "portee": "Melee",
+        "cible": "Ground",
+        "nombre": 1
+    },
+    "Vines": {
+        "nom": "Vines",
+        "type": "spell",
+        "degats": 306,
+        "degatsTour": 70,
+        "rayon": 2.5
+    },
+    "Void": {
+        "nom": "Void",
+        "type": "spell",
+        "degats": 696,
+        "degatsTour": 97,
+        "rayon": 2.5,
+        "note": "Dégâts sur 1 seule cible ; baisse s'il y a plusieurs cibles."
+    },
+    "Wall Breakers": {
+        "nom": "Wall Breakers",
+        "type": "troop",
+        "pv": 330,
+        "degats": 302,
+        "vitesse": "Very Fast",
+        "portee": "Melee",
+        "cible": "Buildings",
+        "nombre": 2,
+        "note": "Dégâts de l'explosion sur le bâtiment."
+    },
+    "Witch": {
+        "nom": "Witch",
+        "type": "troop",
+        "pv": 839,
+        "degats": 135,
+        "vitesseAttaque": 1.1,
+        "vitesse": "Medium",
+        "portee": 5.5,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "Wizard": {
+        "nom": "Wizard",
+        "type": "troop",
+        "pv": 755,
+        "degats": 304,
+        "vitesseAttaque": 1.4,
+        "vitesse": "Medium",
+        "portee": 5.5,
+        "cible": "Air & Ground",
+        "nombre": 1
+    },
+    "X-Bow": {
+        "nom": "X-Bow",
+        "type": "building",
+        "pv": 1600,
+        "degats": 61,
+        "vitesseAttaque": 0.4,
+        "portee": 11.5,
+        "duree": 30
+    },
+    "Zap": {
+        "nom": "Zap",
+        "type": "spell",
+        "degats": 192,
+        "degatsTour": 48,
+        "rayon": 2.5
+    },
+    "Zappies": {
+        "nom": "Zappies",
+        "type": "troop",
+        "pv": 529,
+        "degats": 117,
+        "vitesseAttaque": 2.3,
+        "vitesse": "Medium",
+        "portee": 4.5,
+        "cible": "Air & Ground",
+        "nombre": 3
+    }
+}

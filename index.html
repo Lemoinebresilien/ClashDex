@@ -19,9 +19,11 @@
                 <ul>
                     <li><button data-type="all">All</button></li>
                     <li><button data-type="troop">Troops <img src="./img/team.png" alt="Troops"></button></li>
-                    <li><button data-type="spell">Spells <img src="./img/lightning-bolt-black-shape-svgrepo-com.svg" alt=""></button></li>
+                    <li><button data-type="spell">Spells <img src="./img/lightning-bolt-black-shape-svgrepo-com.svg"
+                                alt=""></button></li>
                     <li><button data-type="building">Buildings <img src="./img/51174-200.png" alt=""></button></li>
-                    <li><button data-type="tower">Tower Troops <img src="./img/simple-crown-svgrepo-com.svg" alt=""></button></li>
+                    <li><button data-type="tower">Tower Troops <img src="./img/simple-crown-svgrepo-com.svg"
+                                alt=""></button></li>
                 </ul>
             </nav>
         </aside>
@@ -31,8 +33,21 @@
         </div>
     </header>
     <main>
-
+        <section>
+            <div class="filtre">
+                <h3>Sort By</h3>
+                <img src="./img/output-onlinepngtools(2).png" alt="iconFiltre">
+            </div>
+        </section>
         <div id="grille"></div>
+        <div id="fiche" class="cachee">
+            <div id="fiche-contenu">
+                <button id="fiche-fermer">✕</button>
+                <img id="fiche-image" src="" alt="">
+                <h2 id="fiche-nom"></h2>
+                <div id="fiche-stats"></div>
+            </div>
+        </div>
         <script src="script.js"></script>
     </main>
 </body>

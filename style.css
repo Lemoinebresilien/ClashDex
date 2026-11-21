@@ -17,6 +17,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     position: sticky;
     top: 0;
@@ -27,9 +28,12 @@ header {
     padding: 15px 20px;
     background: #1b1b2f;
 }
+
 main {
     padding: 20px;
+
 }
+
 #user {
     justify-self: end;
 }
@@ -49,7 +53,8 @@ h1 {
 /* La grille : autant de colonnes de 120px minimum que la largeur le permet */
 #grille {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fit, 140px);
+    justify-content: center;
     gap: 15px;
 }
 
@@ -238,25 +243,95 @@ aside {
 #menu {
     justify-self: start;
 }
-.carte.legendaire {
-  border: 3px solid transparent;
-  background:
-    linear-gradient(#2a2440, #2a2440) padding-box,
-    conic-gradient(from var(--angle), red, orange, yellow, lime, cyan, blue, magenta, red) border-box;
-  animation: tourner 3s linear infinite;
+
+.carte.legendary {
+    border: 3px solid transparent;
+    background:
+        linear-gradient(#2a2a45, #2a2a45) padding-box,
+        conic-gradient(from var(--angle), red, orange, yellow, lime, cyan, blue, magenta, red) border-box;
+    animation: tourner 3s linear infinite;
 }
 
 @property --angle {
-  syntax: '<angle>';
-  initial-value: 0deg;
-  inherits: false;
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
 }
 
 @keyframes tourner {
-  to { --angle: 360deg; }
+    to {
+        --angle: 360deg;
+    }
 }
 
 /* pour les gens que les animations gênent */
 @media (prefers-reduced-motion: reduce) {
-  .carte.legendaire { animation: none; }
+    .carte.legendary {
+        animation: none;
+    }
+}
+
+.cachee {
+    display: none;
+}
+
+section .filtre img {
+    aspect-ratio: 1/1;
+    width: 40px;
+}
+
+section .filtre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 0.5%;
+    padding-right: 2%;
+}
+
+section .filtre img:hover {
+    transform: scale(1.25);
+    transition: 0.2s;
+}
+.carte {
+    cursor: pointer;
+}
+
+#fiche {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#fiche.cachee {
+    display: none;
+}
+
+#fiche-contenu {
+    position: relative;
+    background: #1b1b2f;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    text-align: center;
+    min-width: 260px;
+}
+
+#fiche-image {
+    width: 180px;
+}
+
+#fiche-fermer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
 }
